@@ -1,0 +1,136 @@
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+img {
+  display: -ms-grid;
+  display: grid;
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bottomlayer ul {
+  background-color: #3671A7;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 1em 1em;
+  font: 1.15rem "Open Sans", sans-serif;
+}
+
+.bottomlayer ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: silver;
+}
+
+.footer {
+  background: silver;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  font: 1.15rem "Open Sans", sans-serif;
+}
+
+.footer ul {
+  list-style-type: none;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer .extrafeet {
+  margin-top: 3%;
+}
+
+.footer .extrafeet .fa:hover {
+  opacity: 0.7;
+}
+
+.footer .extrafeet .fa-facebook {
+  background: #3B5998;
+  color: white;
+  padding: 1em;
+  font-size: 1em;
+  width: 1em;
+  text-align: center;
+  text-decoration: none;
+}
+
+.footer .extrafeet .fa-twitter {
+  background: #55ACEE;
+  color: white;
+  padding: 1em;
+  font-size: 1em;
+  width: 1em;
+  text-align: center;
+  text-decoration: none;
+}
+
+.footer .extrafeet .fa-linkedin {
+  background: #007bb5;
+  color: white;
+  padding: 1em;
+  font-size: 1em;
+  width: 1em;
+  text-align: center;
+  text-decoration: none;
+}
+
+.headline {
+  font: bold 2rem "Open Sans", sans-serif;
+}
+
+.photostrip {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.toprow,
+.bottomrow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.main {
+  font: 1.25rem "Open Sans", sans-serif;
+  margin: 3% 10% 3% 10%;
+}
+/*# sourceMappingURL=energy.css.map */

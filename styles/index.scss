@@ -1,0 +1,25 @@
+@import 'components/headnav';
+@import 'components/footer';
+@import 'components/global/typography';
+.headline {
+    font: $h1raleway;
+    text-align: center;
+}
+
+.bio {
+    font: $regularraleway;
+    margin: 3% 10% 3% 10%;
+}
+
+.videoparent {
+    width: 40%;
+    height: 40%;
+    overflow: hidden;
+}
+
+.videochild {
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+}

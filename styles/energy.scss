@@ -1,0 +1,22 @@
+@import 'components/headnav';
+@import 'components/footer';
+@import 'components/global/typography';
+.headline {
+    font: $h1raleway;
+}
+
+.photostrip {
+    display: flex;
+    flex-direction: column;
+}
+
+.toprow,
+.bottomrow {
+    display: flex;
+    flex-direction: row;
+}
+
+.main {
+    font: $regularraleway;
+    margin: 3% 10% 3% 10%;
+}

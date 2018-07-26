@@ -1,0 +1,11 @@
+@import 'components/headnav';
+@import 'components/footer';
+@import 'components/global/typography';
+.headline {
+    font: $h1raleway;
+}
+
+.main {
+    font: $regularraleway;
+    margin: 3% 10% 3% 10%;
+}

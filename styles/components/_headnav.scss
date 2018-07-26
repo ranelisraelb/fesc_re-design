@@ -1,0 +1,32 @@
+@import 'global/colors';
+@import 'global/typography';
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    display: grid;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bottomlayer ul {
+    background-color: $blue_two;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1em 1em;
+    font: $navraleway;
+}
+
+.bottomlayer ul li a {
+    color: $white;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: $gray;
+}
