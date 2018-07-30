@@ -108,6 +108,11 @@ li a:hover {
   font: bold 2rem "Open Sans", sans-serif;
 }
 
+.main {
+  font: 1.25rem "Open Sans", sans-serif;
+  margin: 3% 10% 3% 10%;
+}
+
 .photostrip {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -116,13 +121,15 @@ li a:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   height: 50%;
   width: 50%;
-  margin: 3% 10% 3% 10%;
 }
 
-.toprow,
-.bottomrow {
+.photostrip .toprow,
+.photostrip .bottomrow {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -130,19 +137,11 @@ li a:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
-.toprow img,
-.bottomrow img {
+.photostrip .toprow img,
+.photostrip .bottomrow img {
   height: 50%;
   width: 50%;
-}
-
-.main {
-  font: 1.25rem "Open Sans", sans-serif;
-  margin: 3% 10% 3% 10%;
 }
 /*# sourceMappingURL=energy.css.map */

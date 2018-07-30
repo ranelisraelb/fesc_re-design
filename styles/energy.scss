@@ -5,26 +5,24 @@
     font: $h1raleway;
 }
 
-.photostrip {
-    display: flex;
-    flex-direction: column;
-    height: 50%;
-    width: 50%;
-    margin: 3% 10% 3% 10%;
-}
-
-.toprow,
-.bottomrow {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    img {
-        height: 50%;
-        width: 50%;
-    }
-}
-
 .main {
     font: $regularraleway;
     margin: 3% 10% 3% 10%;
+}
+
+.photostrip {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50%;
+    width: 50%;
+    .toprow,
+    .bottomrow {
+        display: flex;
+        flex-direction: row;
+        img {
+            height: 50%;
+            width: 50%;
+        }
+    }
 }
