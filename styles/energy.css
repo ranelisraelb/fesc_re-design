@@ -116,6 +116,9 @@ li a:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  height: 50%;
+  width: 50%;
+  margin: 3% 10% 3% 10%;
 }
 
 .toprow,
@@ -127,6 +130,15 @@ li a:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.toprow img,
+.bottomrow img {
+  height: 50%;
+  width: 50%;
 }
 
 .main {

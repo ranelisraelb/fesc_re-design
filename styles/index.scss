@@ -11,15 +11,11 @@
     margin: 3% 10% 3% 10%;
 }
 
-.videoparent {
-    width: 40%;
-    height: 40%;
-    overflow: hidden;
-}
-
-.videochild {
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
+.video {
+    display: flex;
+    justify-content: center;
+    video {
+        width: 50%;
+        height: 50%;
+    }
 }

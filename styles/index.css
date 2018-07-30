@@ -114,16 +114,17 @@ li a:hover {
   margin: 3% 10% 3% 10%;
 }
 
-.videoparent {
-  width: 40%;
-  height: 40%;
-  overflow: hidden;
+.video {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.videochild {
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
+.video video {
+  width: 50%;
+  height: 50%;
 }
 /*# sourceMappingURL=index.css.map */
