@@ -144,4 +144,21 @@ li a:hover {
   height: 50%;
   width: 50%;
 }
+
+.google-graphs {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: fr fr;
+      grid-template-columns: fr fr;
+  justify-items: center;
+}
+
+.google-graphs .graph_two {
+  -ms-grid-column: 2;
+      grid-column-start: 2;
+}
+
+.google-graphs .graph-title p {
+  font: bold 2rem "Open Sans", sans-serif;
+}
 /*# sourceMappingURL=energy.css.map */

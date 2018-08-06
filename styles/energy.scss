@@ -28,9 +28,13 @@
 }
 
 .google-graphs {
-    display: flex;
-    flex-direction: row;
-    .graph-title {
+    display: grid;
+    grid-template-columns: fr fr;
+    justify-items: center;
+    .graph_two {
+        grid-column-start: 2;
+    }
+    .graph-title p {
         font: $h1raleway;
     }
 }
