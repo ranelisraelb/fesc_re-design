@@ -13,6 +13,8 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
     <link rel="stylesheet" href="styles/energy.css">
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="scripts/script.js"></script>
+    <script type="text/javascript" src="scripts/script2.js"></script>
 </head>
 
 <body>
@@ -82,10 +84,12 @@
             <div class="graph_one">
                 <p class="graph-headlines">Renewable Energy Production in Florida</p>
 
+                <button id="1960-2015-trigger">Show 1960-2015</button>
                 <button id="1960-1978-trigger">Show 1960-1978</button>
                 <button id="1978-1996-trigger">Show 1978 - 1996</button>
                 <button id="1996-2015-trigger">Show 1996 - 2015</button>
 
+                <div id="1960-2015"></div>
                 <div id="1960-1978"></div>
                 <div id="1978-1996"></div>
                 <div id="1996-2015"></div>
@@ -94,16 +98,17 @@
 
                 <p class="graph-headlines">Renewable Energy Consumption in Florida</p>
 
+                <button id="all-trigger-con">Show 1960-2016</button>
                 <button id="1960-1978-trigger-con">Show 1960-1978</button>
                 <button id="1978-1996-trigger-con">Show 1978 - 1996</button>
                 <button id="1996-2016-trigger-con">Show 1996 - 2016</button>
 
+                <div id="all-con"></div>
                 <div id="1960-1978-con"></div>
                 <div id="1978-1996-con"></div>
                 <div id="1996-2016-con"></div>
             </div>
-            <script type="text/javascript" src="scripts/script.js"></script>
-            <script type="text/javascript" src="scripts/script2.js"></script>
+
         </div>
         <div class="footer">
 
