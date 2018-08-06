@@ -158,7 +158,7 @@ li a:hover {
       grid-column-start: 2;
 }
 
-.google-graphs .graph-title p {
-  font: bold 2rem "Open Sans", sans-serif;
+.google-graphs p {
+  font: 1.4em "Open Sans", sans-serif;
 }
 /*# sourceMappingURL=energy.css.map */
