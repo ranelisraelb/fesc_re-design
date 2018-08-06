@@ -26,3 +26,11 @@
         }
     }
 }
+
+.google-graphs {
+    display: flex;
+    flex-direction: row;
+    .graph-title {
+        font: $h1raleway;
+    }
+}
