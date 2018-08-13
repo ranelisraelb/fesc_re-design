@@ -41,9 +41,9 @@ function drawWholeStretchFirst(getData) {
     data.addRows(getData);
 
     var options = {
-        'title': 'Renewable Energy Production In Florida (1960 - 2015)',
-        'width': 400,
-        'height': 300,
+        'title': 'Renewable Energy Consumption In Florida (1960 - 2016)',
+        'width': 600,
+        'height': 400,
     };
 
     var chart = new google.visualization.LineChart(document.getElementById('energy_consumption'));
