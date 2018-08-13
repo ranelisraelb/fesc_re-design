@@ -25,7 +25,7 @@ function getData() {
         }
         let response = JSON.parse(request.response)
         console.log(response.series[0].data)
-        drawWholeStretch(response.series[0].data);
+        drawWholeStretchFirst(response.series[0].data);
     }
     request.error = function (err) {
         console.log("error is: ", err)
@@ -34,7 +34,7 @@ function getData() {
     request.send()
 }
 
-function drawWholeStretch(getData) {
+function drawWholeStretchFirst(getData) {
     var data = new google.visualization.DataTable();
     data.addColumn('string', 'Year');
     data.addColumn('number', 'Billion BTU');

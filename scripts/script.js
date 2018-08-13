@@ -6,15 +6,15 @@
 // db94cf5c0202d5c76c61e38805bb8373 -->
 
 
-function onDOMLoad() {
+function onDOMLoadFirst() {
     google.charts.load('current', {
         'packages': ['corechart', 'bar']
     })
-    google.charts.setOnLoadCallback(getData);
+    google.charts.setOnLoadCallback(getDataFirst);
 }
-document.addEventListener("DOMContentLoaded", onDOMLoad)
+document.addEventListener("DOMContentLoaded", onDOMLoadFirst)
 
-function getData() {
+function getDataFirst() {
     let request = new XMLHttpRequest()
     let requestURL = "http://api.eia.gov/series/?api_key=db94cf5c0202d5c76c61e38805bb8373&series_id=SEDS.REPRB.FL.A"
     request.open('GET', requestURL, true)
@@ -34,11 +34,11 @@ function getData() {
     request.send()
 }
 
-function drawWholeStretch(getData) {
+function drawWholeStretch(getDataFirst) {
     var data = new google.visualization.DataTable();
     data.addColumn('string', 'Year');
     data.addColumn('number', 'Billion BTU');
-    data.addRows(getData);
+    data.addRows(getDataFirst);
 
     var options = {
         'title': 'Renewable Energy Production In Florida (1960 - 2015)',
