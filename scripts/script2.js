@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", onDOMLoad)
 
 function getData() {
     let request = new XMLHttpRequest()
-    let requestURL = "http://api.eia.gov/series/?api_key=db94cf5c0202d5c76c61e38805bb8373&series_id=SEDS.TETCB.FL.A"
+    let requestURL = "https://api.eia.gov/series/?api_key=db94cf5c0202d5c76c61e38805bb8373&series_id=SEDS.TETCB.FL.A"
     request.open('GET', requestURL, true)
     request.onload = function () {
         if (request.status !== 200) {
