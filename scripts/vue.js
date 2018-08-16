@@ -1,9 +1,9 @@
-var emailApp = new Vue({
-    el: '#email-register'
-
+var emailApp = Vue.component('email-component', {
+    props: ['title'],
+    template: '<div><p>{{title}}</p><form><input type="text" placeholder="john.smith@email.com"><input type="submit" value="Submit"></form></div>'
 })
 
-vue.component('register', {
-    props: ['title'],
-    template: '<p>{{title}}</p><form><input type="text" placeholder="john.smith@email.com"><input type="submit" value="Submit"></form>'
+new Vue({
+    el: '#emailApp'
+
 })
