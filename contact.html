@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
     <link rel="stylesheet" href="styles/contact.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
 </head>
 
 <body>
@@ -138,18 +140,12 @@
                 <a href="#" class="fa fa-twitter"></a>
                 <a href="#" class="fa fa-linkedin"></a>
             </div>
-            <div class="email_register">
-                <p>Sign up for FESC Newsletter!</p>
-                <form>
-                    <input type="text" placeholder="john.smith@email.com">
-                    <input type="submit" value="Submit">
-                </form>
-            </div>
-            <div class="support_companies">
-                <!-- Associated company links and their logos -->
+            <div id="emailApp">
+                <email-component title="Register for FESC Newsletter!"></email-component>
             </div>
         </div>
     </div>
+    <script src="scripts/vue.js"></script>
 </body>
 
 </html>
